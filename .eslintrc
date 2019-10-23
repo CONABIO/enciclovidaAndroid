@@ -1,0 +1,23 @@
+{
+  "extends": "satya164",
+
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/core-modules": [
+      "react-navigation-stack",
+      "react-native-gesture-handler",
+      "react-native-reanimated"
+    ]
+  },
+  "env": {
+    "es6": true,
+    "react-native-globals/all": true,
+  },
+  "rules": {
+    "react-native/no-inline-styles": "off",
+    "import/no-unresolved": "off",
+    "react/sort-comp": "off"
+  }
+}
